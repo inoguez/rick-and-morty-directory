@@ -16,12 +16,12 @@ function Card({ data, onToggleFavorite }) {
       <div className="grid grid-cols-3 h-full">
         <div className="block w-full ">
           <Image
-            loader={() => image}
             src={image}
-            width={500}
-            height={500}
+            width={200}
+            height={200}
             className="object-cover w-full h-full"
             alt={name}
+            priority
           />
         </div>
         <div className="flex flex-row p-5 col-span-2 h-full justify-between">
