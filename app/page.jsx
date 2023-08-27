@@ -16,7 +16,7 @@ export default async function Home() {
           <Request />
         </section>
       </main>
-      <footer></footer>
+      <footer>Ian Noguez ©</footer>
     </CharactersProvider>
   );
 }
