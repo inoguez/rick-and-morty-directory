@@ -16,7 +16,15 @@ export default async function Home() {
           <Request />
         </section>
       </main>
-      <footer>Ian Noguez ©</footer>
+      <footer className="w-full px-5 lg:px-24 text-white text-right">
+        <a
+          href="https://github.com/inoguez"
+          target="_blank"
+          className="hover:underline"
+        >
+          Ian Noguez ©
+        </a>
+      </footer>
     </CharactersProvider>
   );
 }
