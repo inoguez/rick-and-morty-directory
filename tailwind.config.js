@@ -10,11 +10,15 @@ module.exports = {
       colors: {
         primary: '#B3E028',
         secondary: '#1E2838',
+        third: '#00B5CD',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
       },
     },
   },
