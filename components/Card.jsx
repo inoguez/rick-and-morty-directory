@@ -2,6 +2,7 @@
 
 import { useCharacterContext } from '@/context/CharactersProvider';
 import Fav from './Fav';
+import Image from 'next/image';
 
 function Card({ data, onToggleFavorite }) {
   const { id, name, image, url, isFavorite, gender, species, status } = data;
@@ -14,7 +15,11 @@ function Card({ data, onToggleFavorite }) {
     <article className="card group relative bg-secondary rounded-2xl overflow-hidden h-full">
       <div className="grid grid-cols-3 h-full">
         <div className="block w-full ">
-          <img className="object-cover w-full h-full" src={image} alt="" />
+          <Image
+            className="object-cover w-full h-full"
+            src={image}
+            alt={name}
+          />
         </div>
         <div className="flex flex-row p-5 col-span-2 h-full justify-between">
           <div className="flex flex-col justify-between h-full">
