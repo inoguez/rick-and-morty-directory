@@ -16,8 +16,11 @@ function Card({ data, onToggleFavorite }) {
       <div className="grid grid-cols-3 h-full">
         <div className="block w-full ">
           <Image
-            className="object-cover w-full h-full"
+            loader={() => image}
             src={image}
+            width={500}
+            height={500}
+            className="object-cover w-full h-full"
             alt={name}
           />
         </div>
