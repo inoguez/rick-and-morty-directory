@@ -22,9 +22,6 @@ function FavPanel() {
       <h2 className="text-primary font-bold text-sm  md:text-lg mb-5">
         Personajes Favoritos por Especie
       </h2>
-      {!Object.keys(charactersBySpecies) && (
-        <h3>Empieza a agregar a favoritos personajes</h3>
-      )}
       {Object.keys(charactersBySpecies).map((species) => (
         <div key={species}>
           <h3 className="text-lg font-semibold mb-2 text-slate-100">

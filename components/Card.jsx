@@ -1,6 +1,4 @@
 'use client';
-
-import { useCharacterContext } from '@/context/CharactersProvider';
 import Fav from './Fav';
 import Image from 'next/image';
 

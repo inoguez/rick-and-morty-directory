@@ -10,7 +10,7 @@ function Fav({ idle, isFavorite }) {
       <g id="Capa_1-2" data-name="Capa 1">
         <g>
           <path
-            className={`group-hover/item:animate-spin-slow group-hover/item:fill-[#0D1118] origin-center transition-all duration-200 fill-[#0D1118]
+            className={`sm:group-hover/item:animate-spin-slow sm:group-hover/item:fill-[#0D1118] origin-center transition-all duration-200 fill-[#0D1118]
             ${idle ? 'animate-spin-slow' : ''}
             ${
               isFavorite !== undefined
@@ -23,7 +23,7 @@ function Fav({ idle, isFavorite }) {
             d="m231.63,651.14h0c-20.95-42.21-61.46-71.47-108.31-78.24h0c-117.99-17.05-165.1-161.2-79.72-243.94h0c33.9-32.86,49.37-80.19,41.37-126.59h0C64.81,85.54,188.15-3.55,293.68,51.61h0c41.91,21.9,91.97,21.9,133.88,0h0c105.53-55.16,228.87,33.93,208.72,150.76h0c-8,46.39,7.47,93.73,41.37,126.59h0c85.38,82.74,38.26,226.9-79.72,243.94h0c-46.85,6.77-87.36,36.03-108.31,78.24h0c-52.77,106.3-205.22,106.3-257.99,0Z"
           />
           <path
-            className={`group-hover/item:animate-spin group-hover/item:fill-[#0D1118] origin-center transition-all duration-200 fill-[#0D1118]
+            className={`sm:group-hover/item:animate-spin sm:group-hover/item:fill-[#0D1118] origin-center transition-all duration-200 fill-[#0D1118]
             ${idle ? 'animate-spin-slow' : ''}
             ${
               isFavorite !== undefined
@@ -37,7 +37,7 @@ function Fav({ idle, isFavorite }) {
             d="m79.71,481.35h0c15.03-44.66,7.08-93.99-21.26-131.91h0c-71.38-95.48-2.76-230.73,116.12-228.87h0c47.21.74,91.62-21.79,118.76-60.26h0c68.36-96.86,218.57-72.65,254.19,40.98h0c14.14,45.12,49.54,80.52,94.66,94.67h0c113.63,35.62,137.84,185.83,40.98,254.19h0c-38.46,27.15-61,71.56-60.26,118.76h0c1.86,118.88-133.38,187.5-228.87,116.12h0c-37.92-28.34-87.24-36.3-131.91-21.26h0c-112.47,37.85-220.28-69.95-182.42-182.42Z"
           />
           <path
-            className={`group-hover/item:animate-spin-slow group-hover/item:fill-primary   origin-center transition-all duration-200 fill-primary
+            className={`sm:group-hover/item:animate-spin-slow sm:group-hover/item:fill-primary   origin-center transition-all duration-200 fill-primary
             ${idle ? 'animate-spin-slow' : ''}
             ${
               isFavorite !== undefined
